@@ -35,7 +35,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "The D-Day yayyyy!! Finally the day has arrieved ";
+        document.getElementById("time").innerHTML = "The D-Day yayyyy!! Finally the day has arrived ";
     }
 }, 1000);
 
